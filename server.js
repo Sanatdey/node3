@@ -9,7 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
   const flash = require('express-flash')
   const session = require('express-session')
   const methodOverride = require('method-override')
-  var port =process.env.PORT || 3000
+  var port =process.env.PORT || 8080
   
   const initializePassport = require('./passport-config')
   initializePassport(
@@ -85,6 +85,6 @@ if (process.env.NODE_ENV !== 'production') {
     next()
   }
   
-  app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+  app.listen(port, function () {
+    console.log('Example app listening on port '+ port+'!');
   });
