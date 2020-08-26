@@ -1,19 +1,12 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  
+   "description": "test",
     "engines": {
 "node": "14.8.0",
 "npm": "6.14.7"
 },
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "dotenv": "^8.2.0",
@@ -21,14 +14,26 @@
     "express": "^4.17.1",
     "express-flash": "0.0.2",
     "express-session": "^1.17.1",
-    "git": "^0.1.5",
+    
     "method-override": "^3.0.0",
-    "nodemon": "^2.0.4",
-    "npm-git-install": "^0.3.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
+    "git": "^0.1.5",
+    "nodemon": "^2.0.4",
+    "npm-git-install": "^0.3.0",
     "simple-git": "^2.20.1"
   }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "task",
+    "practics"
+  ],
+  "author": "Sanat",
+  "license": "ISC"
+
 }
