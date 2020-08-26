@@ -85,6 +85,6 @@ if (process.env.NODE_ENV !== 'production') {
     next()
   }
   
-  app.listen(port, function () {
+  app.listen(3000, function () {
     console.log('Example app listening on port !');
   });
